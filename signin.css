@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: #fff1ec;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+.navbar li a:hover {
+  color: #a03816;
+  text-decoration: underline;
+}
+.navbar ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.Sign-in:hover {
+  background-color: #a03816;
+  color: #fff1ec;
+}
+.Sign-in {
+  background-color: #fff1ec;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  border: none;
+  color: #a03816;
+  border-style: solid;
+  cursor: pointer;
+}
+.Sign-up:hover {
+  background-color: #fff1ec;
+  color: #a03816;
+}
+.Sign-up {
+  background-color: #a03816;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  border: none;
+  color: #fff1ec;
+  border-style: solid;
+  cursor: pointer;
+}
+button {
+  margin: 4px;
+}
+.Hero-section {
+  height: 90vh;
+  width: 100vw;
+  background-color: #fff1ec;
+}
+.form-container {
+  position: absolute;
+  max-width: 320px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  background-color: #d3bbbb;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: rgb(0, 0, 0, 0.1);
+}
+.form-container h2 {
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+}
+.input_box {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+}
+.input_box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-left: 2px;
+  padding: 0 22px;
+  transition: all 0.2s ease;
+  border-bottom: 1.5px solid #a03816;
+}
+.option_field {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  color: rgb(56, 55, 55);
+  position: absolute;
+  top: 40%;
+  margin-top: 5px;
+  transform: translateY(-50%);
+  left: 3px;
+  font-size: 14px;
+}
+.form-container a {
+  color: #a03816;
+  font-size: 14px;
+  text-decoration: none;
+}
+.form-container a:hover {
+  text-decoration: underline;
+}
+.checkbox {
+  display: flex;
+  column-gap: 8px;
+  white-space: nowrap;
+}
+.checkbox input {
+  accent-color: #d3bbbb;
+}
+.checkbox label {
+  color: #000;
+  user-select: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.form-container .button {
+  background-color: #948f8f;
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff1ec;
+  font-size: 18px;
+}
+.login_signup {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+.button:hover{
+    background-color: azure;
+    color: black;
+}
